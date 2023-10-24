@@ -7,7 +7,6 @@ ul {
 .menuBurger {
   height: 50px;
   width: 50px;
-  display: none;
 }
 
 .bgHeader {
@@ -19,9 +18,6 @@ ul {
 
 /* Format téléphone */
 @media screen and (max-width: 400px) {
-  .menuBurger {
-    display: block;
-  }
   h1 {
     display: none;
   }
@@ -40,9 +36,6 @@ ul {
 @media screen and (min-width: 401px) and (max-width: 1000px) {
   .bgHeader {
     background-image: url(../img/bg_footer.jpg);
-  }
-  .menuBurger {
-    display: block;
   }
   ul {
     display: none;
