@@ -1,0 +1,51 @@
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.menuBurger {
+  height: 50px;
+  width: 50px;
+  display: none;
+}
+
+.bgHeader {
+  background-image: url("../img/bg_header.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+}
+
+/* Format téléphone */
+@media screen and (max-width: 400px) {
+  .menuBurger {
+    display: block;
+  }
+  h1 {
+    display: none;
+  }
+  ul {
+    display: none;
+  }
+  .bgHeader {
+    background-image: url("../img/bg_header.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+  }
+}
+
+/* Format tablette */
+@media screen and (min-width: 401px) and (max-width: 1000px) {
+  .bgHeader {
+    background-image: url(../img/bg_footer.jpg);
+  }
+}
+
+/* Format ordinateur */
+@media screen and (min-width: 1001px) {
+  .menuBurger {
+    display: none;
+  }
+}
