@@ -41,6 +41,12 @@ ul {
   .bgHeader {
     background-image: url(../img/bg_footer.jpg);
   }
+  .menuBurger {
+    display: block;
+  }
+  ul {
+    display: none;
+  }
 }
 
 /* Format ordinateur */
